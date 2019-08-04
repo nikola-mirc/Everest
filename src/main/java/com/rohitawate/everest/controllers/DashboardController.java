@@ -512,6 +512,12 @@ public class DashboardController implements Initializable {
     }
 
     @FXML
+    private void copyResponse() {
+    	responseArea.selectAll();
+    	responseArea.copy();
+    }
+    
+    @FXML
     private void appendParams() {
         StringBuilder url = new StringBuilder();
         url.append(addressField.getText().split("\\?")[0]);

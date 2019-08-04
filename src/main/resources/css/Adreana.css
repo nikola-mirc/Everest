@@ -287,7 +287,10 @@
 #historySearchFieldBox {
     -fx-background-color: #303030;
 }
-
+#clearHistory {
+	-fx-background-color: #822f2f;
+	-fx-text-fill: white;
+}
 .searchTextField {
     -fx-background-color: transparent;
     -fx-text-fill: white;
